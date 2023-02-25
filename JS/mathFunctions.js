@@ -39,6 +39,7 @@ function remainder(a, b) {
 }
 
 console.log(`Using the remainder function: ${remainder(1, 2)}`); // 1
+console.log(`Using the remainder function: ${remainder(1, 0)}`); // NaN
 
 // function to calculate the power of two variables
 
