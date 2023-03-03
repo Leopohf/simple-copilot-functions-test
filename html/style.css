@@ -1,3 +1,5 @@
+/*import the font from google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 /* reset all styles to best practices */
 * {
     box-sizing: border-box;
@@ -6,6 +8,13 @@
     border: 0;
 }
 /* set the font size to 62.5% to make 1rem = 10px */
+/* this makes it easier to use rem units */
 html {
     font-size: 62.5%;
+    font-family: Roboto, Arial, Helvetica, sans-serif, serif;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
 }
